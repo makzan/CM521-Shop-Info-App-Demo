@@ -2,7 +2,9 @@
 <title>App Demo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 /* Reset */
 h1,
@@ -12,56 +14,46 @@ h3 {
   padding: 0;
   font-size: 1em;
 }
+
 p {
   margin: 0;
 }
 
-.page {
-  // border: 10px solid red;
-
-  header {
-    background: #222;
-    color: white;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-    li {
-      min-height: 30px;
-      line-height: 30px;
-    }
-  }
-  
-  ul.library-list > li h2 {
-    background: rgba(200,200,200,0.9);
-    height: 40px;
-    line-height: 40px;
-    padding-left: 5px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 40px;
-  }
-  
-  ul.library-list > li > ul > li {
-    padding-left: 5px;
-    background: snow;
-  }
-  
-  .open-hour {
-    color: #bbb;
-  }
-  
-  
+.page header {
+  background: #222;
+  color: white;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.page ul li {
+  min-height: 30px;
+  line-height: 30px;
+}
+.page ul.library-list > li h2 {
+  background: rgba(200, 200, 200, 0.9);
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+.page ul.library-list > li > ul > li {
+  padding-left: 5px;
+  background: snow;
+}
+.page .open-hour {
+  color: #bbb;
 }
 
 a {
@@ -78,17 +70,17 @@ a {
     <main>      
       <ul class="library-list">
         <li>
-          <a href="/shop-a.html">
+          <a href="/CM521-Shop-Info-App-Demo/shop-a.html">
             Shop A
           </a>
         </li>
         <li>
-          <a href="/shop-b.html">
+          <a href="/CM521-Shop-Info-App-Demo/shop-b.html">
             Shop B
           </a>
         </li>
         <li>
-          <a href="/shop-c.html">
+          <a href="/CM521-Shop-Info-App-Demo/shop-c.html">
             Shop C
           </a>
         </li>
